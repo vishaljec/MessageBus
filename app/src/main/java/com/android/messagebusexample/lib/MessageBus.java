@@ -1,12 +1,5 @@
 package com.android.messagebusexample.lib;
 
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.concurrent.Executor;
-
-
 import com.android.messagebusexample.lib.utils.Assert;
 import com.android.messagebusexample.lib.utils.StringUtils;
 import com.google.common.base.Optional;
@@ -14,6 +7,12 @@ import com.google.common.base.Optional;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.Executor;
 
 public class MessageBus {
     private static final Logger LOGGER = LoggerFactory.getLogger(MessageBus.class);
